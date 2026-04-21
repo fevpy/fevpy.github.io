@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class ApplicationController | EPO Design Patterns Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class ApplicationController | EPO Design Patterns Documentation ">
+    
+    <meta name="description" content="Class for controlling game initialisation, unit creation, undo actions, and shared game state. Authors: Eveliina Pylkk&#228;nen, Olga Ivanova, Jenna Virolainen">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Global.ApplicationController">
+
+
+
+  <h1 id="Global_ApplicationController" data-uid="Global.ApplicationController" class="text-break">Class ApplicationController</h1>
+  <div class="markdown level0 summary"><p>Class for controlling game initialisation, unit creation, undo actions, and shared game state.
+Authors: Eveliina Pylkkänen, Olga Ivanova, Jenna Virolainen</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Object.html">Object</a></div>
+    <div class="level2"><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Component.html">Component</a></div>
+    <div class="level3"><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Behaviour.html">Behaviour</a></div>
+    <div class="level4"><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
+    <div class="level5"><a class="xref" href="SingletonMono-1.html">SingletonMono</a>&lt;<a class="xref" href="ApplicationController.html">ApplicationController</a>&gt;</div>
+    <div class="level6"><span class="xref">ApplicationController</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Global.SingletonMono-1.html#Global_SingletonMono_1_Instance">SingletonMono&lt;ApplicationController&gt;.Instance</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.SingletonMono-1.html#Global_SingletonMono_1_OnDestroy">SingletonMono&lt;ApplicationController&gt;.OnDestroy()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="Global_ApplicationController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ApplicationController : SingletonMono&lt;ApplicationController&gt;</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+
+
+  <h4 id="Global_ApplicationController_Spice" data-uid="Global.ApplicationController.Spice">Spice</h4>
+  <div class="markdown level1 summary"><p>Stores the player's current spice amount.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReactiveProperty&lt;int&gt; Spice</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ReactiveProperty-1.html">ReactiveProperty</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="Global_ApplicationController_AiUnitFactory_" data-uid="Global.ApplicationController.AiUnitFactory*"></a>
+  <h4 id="Global_ApplicationController_AiUnitFactory" data-uid="Global.ApplicationController.AiUnitFactory">AiUnitFactory</h4>
+  <div class="markdown level1 summary"><p>Factory used to create AI units.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnitFactory&lt;AiUnit&gt; AiUnitFactory { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnitFactory-1.html">UnitFactory</a>&lt;<a class="xref" href="AiUnit.html">AiUnit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Global_ApplicationController_BuildingFactory_" data-uid="Global.ApplicationController.BuildingFactory*"></a>
+  <h4 id="Global_ApplicationController_BuildingFactory" data-uid="Global.ApplicationController.BuildingFactory">BuildingFactory</h4>
+  <div class="markdown level1 summary"><p>Factory used to create building units.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnitFactory&lt;BuildingUnit&gt; BuildingFactory { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnitFactory-1.html">UnitFactory</a>&lt;<a class="xref" href="BuildingUnit.html">BuildingUnit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Global_ApplicationController_BuildUnit_" data-uid="Global.ApplicationController.BuildUnit*"></a>
+  <h4 id="Global_ApplicationController_BuildUnit_System_String_UnityEngine_GameObject_UnitSpecsSO_" data-uid="Global.ApplicationController.BuildUnit(System.String,UnityEngine.GameObject,UnitSpecsSO)">BuildUnit(string, GameObject, UnitSpecsSO)</h4>
+  <div class="markdown level1 summary"><p>Builds a new unit and stores the build command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Unit BuildUnit(string _type, GameObject _go, UnitSpecsSO _unitSpecs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">_type</span></td>
+        <td><p>The type of unit to build.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/GameObject.html">GameObject</a></td>
+        <td><span class="parametername">_go</span></td>
+        <td><p>The prefab used to create the unit.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.UnitSpecsSO.html">UnitSpecsSO</a></td>
+        <td><span class="parametername">_unitSpecs</span></td>
+        <td><p>The specifications of the unit being built.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><p>The created unit.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Global_ApplicationController_Init_" data-uid="Global.ApplicationController.Init*"></a>
+  <h4 id="Global_ApplicationController_Init" data-uid="Global.ApplicationController.Init">Init()</h4>
+  <div class="markdown level1 summary"><p>Initialises the UI, camera, and unit controllers and gives the player starting spice.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Init()</code></pre>
+  </div>
+
+
+  <a id="Global_ApplicationController_UndoUnitBuild_" data-uid="Global.ApplicationController.UndoUnitBuild*"></a>
+  <h4 id="Global_ApplicationController_UndoUnitBuild" data-uid="Global.ApplicationController.UndoUnitBuild">UndoUnitBuild()</h4>
+  <div class="markdown level1 summary"><p>Undo the latest unit built.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UndoUnitBuild()</code></pre>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      EPO Design Patterns Documentation
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
