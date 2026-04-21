@@ -1,11 +1,12 @@
-.sidetoc {
+.sidetoc,
+.sidefilter,
+.sideaffix {
   display: none !important;
 }
 
+.article,
 .article.grid-right {
   margin-left: 0 !important;
-}
-
-html, body {
-  background: hotpink !important;
+  width: 100% !important;
+  max-width: 100% !important;
 }
