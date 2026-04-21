@@ -1,0 +1,426 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://normanderwan.github.io/DocFxForUnity/",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://normanderwan.github.io/DocFxForUnity/",
+    "changefreq": "weekly"
+  },
+  "source_base_path": "C:/Users/eveli/Unity/EPO_for_documentation/EPO_design_patterns/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AiUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AiUnit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AiUnit",
+      "Summary": "<p sourcefile=\"api/Global.AiUnit.yml\" sourcestartlinenumber=\"1\">Class for a moving unit controlled by NavMeshAgent. Inherits Unit.\nAuthors: Eveliina Pylkkänen, Olga Ivanova, Jenna Virolainen</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ApplicationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ApplicationController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ApplicationController",
+      "Summary": "<p sourcefile=\"api/Global.ApplicationController.yml\" sourcestartlinenumber=\"1\">Class for controlling game initialisation, unit creation, undo actions, and shared game state.\nAuthors: Eveliina Pylkkänen, Olga Ivanova, Jenna Virolainen</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.BuildingUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BuildingUnit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BuildingUnit",
+      "Summary": "<p sourcefile=\"api/Global.BuildingUnit.yml\" sourcestartlinenumber=\"1\">Class for a basic building unit. Inherits Unit.\nAuthors: Eveliina Pylkkänen, Olga Ivanova, Jenna Virolainen</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CameraController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CameraController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CameraController",
+      "Summary": "<p sourcefile=\"api/Global.CameraController.yml\" sourcestartlinenumber=\"1\">Class to handle camera movement and interactions.\nAuthors: Eveliina Pylkkänen, Olga Ivanova, Jenna Virolainen</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ICommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ICommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ICommand",
+      "Summary": "<p sourcefile=\"api/Global.ICommand.yml\" sourcestartlinenumber=\"1\">This is an interface for command design pattern.\nAuthors: Ivanova Olga, Pylkkänen Eveliina, Virolainen Jenn</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IObserver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IObserver-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "IObserver<T>",
+      "Summary": "<p sourcefile=\"api/Global.IObserver-1.yml\" sourcestartlinenumber=\"1\">Interface for an observer that receives updates from a subject.\nAuthors: Ivanova Olga, Pylkkänen Eveliina, Virolainen Jenna</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ISubject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ISubject-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ISubject<T>",
+      "Summary": "<p sourcefile=\"api/Global.ISubject-1.yml\" sourcestartlinenumber=\"1\">Interface for a subject that maintains a list of observers and notifies them about changes.\nAuthors: Ivanova Olga, Pylkkänen Eveliina, Virolainen Jenna</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InputController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InputController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "InputController",
+      "Summary": "<p sourcefile=\"api/Global.InputController.yml\" sourcestartlinenumber=\"1\">Class for handling user input.\nAuthors: Eveliina Pylkkänen, Olga Ivanova, Jenna Virolainen</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NewUnitButton.UnitType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NewUnitButton.UnitType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NewUnitButton.UnitType",
+      "Summary": "<p sourcefile=\"api/Global.NewUnitButton.UnitType.yml\" sourcestartlinenumber=\"1\">Määrittää yksikön tyypin.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NewUnitButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NewUnitButton.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NewUnitButton",
+      "Summary": "<p sourcefile=\"api/Global.NewUnitButton.yml\" sourcestartlinenumber=\"1\">Nappi uuden yksikön luomiseen.\nAuthor Jenna Virolainen.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ReactiveObserver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ReactiveObserver-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ReactiveObserver<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ReactiveProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ReactiveProperty-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ReactiveProperty<T>",
+      "Summary": "<p sourcefile=\"api/Global.ReactiveProperty-1.yml\" sourcestartlinenumber=\"1\">Observable arvo, joka ilmoittaa muutoksista.\nAuthor Jenna Virolainen.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Singleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Singleton-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Singleton<T>",
+      "Summary": "<p sourcefile=\"api/Global.Singleton-1.yml\" sourcestartlinenumber=\"1\">Singleton toteutus pitää huolen, että luokasta on vain yksi instanssi.\nAuthor Jenna Virolainen.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SingletonMono-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SingletonMono-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SingletonMono<T>",
+      "Summary": "<p sourcefile=\"api/Global.SingletonMono-1.yml\" sourcestartlinenumber=\"1\">Varmistaa että T :stä on vain yksi instanssi ja luo sen jos sitä ei ole.\nAuthor Jenna Virolainen.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UIButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UIButton.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UIButton",
+      "Summary": "<p sourcefile=\"api/Global.UIButton.yml\" sourcestartlinenumber=\"1\">Base class for all UI buttons.\nAuthors: Eveliina Pylkkänen, Olga Ivanova, Jenna Virolainen</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UIController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UIController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UIController",
+      "Summary": "<p sourcefile=\"api/Global.UIController.yml\" sourcestartlinenumber=\"1\">Class for handling the game UI.\nAuthors: Eveliina Pylkkänen, Olga Ivanova, Jenna Virolainen</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Unit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Unit",
+      "Summary": "<p sourcefile=\"api/Global.Unit.yml\" sourcestartlinenumber=\"1\">Abstract class for the game's units that are placed on the level.\nAuthors: Eveliina Pylkkänen, Olga Ivanova, Jenna Virolainen</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UnitBuildCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UnitBuildCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnitBuildCommand",
+      "Summary": "<p sourcefile=\"api/Global.UnitBuildCommand.yml\" sourcestartlinenumber=\"1\">Command for building a unit.\nAuthors: Ivanova Olga, Pylkkänen Eveliina, Virolainen Jenna</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UnitController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UnitController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnitController",
+      "Summary": "<p sourcefile=\"api/Global.UnitController.yml\" sourcestartlinenumber=\"1\">Class for managing unit deployment, selection, and movement commands.\nAuthors: Eveliina Pylkkänen, Olga Ivanova, Jenna Virolainen</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UnitFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UnitFactory-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnitFactory<UnitT>",
+      "Summary": "<p sourcefile=\"api/Global.UnitFactory-1.yml\" sourcestartlinenumber=\"1\">Factory class for creating unit instances.\nAuthors: Ivanova Olga, Pylkkänen Eveliina, Virolainen Jenna</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UnitSpecsSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UnitSpecsSO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "UnitSpecsSO",
+      "Summary": "<p sourcefile=\"api/Global.UnitSpecsSO.yml\" sourcestartlinenumber=\"1\">ScriptableObject that stores the stats and materials for a unit.\nAuthors: Eveliina Pylkkänen, Olga Ivanova, Jenna Virolainen</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/coniunctis.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/coniunctis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/etiam.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/etiam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html"
+        },
+        ".json": {
+          "relative_path": "manual/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleManual.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleManual.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleScriptingApi.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleScriptingApi.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
