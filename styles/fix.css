@@ -5,3 +5,7 @@
 .article.grid-right {
   margin-left: 0 !important;
 }
+
+html, body {
+  background: hotpink !important;
+}
