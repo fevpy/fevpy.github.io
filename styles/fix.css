@@ -36,3 +36,7 @@
   max-width: 100% !important;
   flex: none !important;
 }
+
+* {
+  outline: 1px solid red !important;
+}
